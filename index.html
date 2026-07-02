@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok VI - Argantara KKN Nusantara 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 overflow-x-hidden antialiased">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto flex items-center justify-between py-3 px-4 sm:px-6">
+            <div class="flex items-center space-x-3">
+                <img src="https://6a4602007caaf70790b5b09c.imgix.net/sandbox/dddd.png" alt="Logo KKN" class="h-14 w-11 sm:h-16 sm:w-13 object-contain rounded-full">
+                <div>
+                    <h1 class="text-base sm:text-lg font-bold text-gray-900 leading-tight">KKN ARGANTARA VI</h1>
+                    <p class="text-xs text-gray-500">Mengabdi Berkarya & Berdaya</p>
+                </div>
+            </div>
+            
+            <button id="menu-toggle" class="lg:hidden flex items-center p-2 rounded-lg text-green-700 hover:bg-green-50 focus:outline-none transition-colors" aria-label="Toggle Menu">
+                <svg id="menu-icon" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <nav class="hidden lg:flex gap-6">
+                <a href="#beranda" class="hover:text-green-600 font-semibold text-green-700">Beranda</a>
+                <a href="#tentang" class="hover:text-green-600 font-medium text-gray-600 transition-colors">Tentang</a>
+                <a href="#proker" class="hover:text-green-600 font-medium text-gray-600 transition-colors">Program Kerja</a>
+                <a href="#anggota" class="hover:text-green-600 font-medium text-gray-600 transition-colors">Anggota</a>
+                <a href="#logo" class="hover:text-green-600 font-medium text-gray-600 transition-colors">Filosofi Logo</a>
+                <a href="#kontak" class="hover:text-green-600 font-medium text-gray-600 transition-colors">Kontak</a>
+            </nav>
+        </div>
+
+        <nav id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-3 shadow-inner">
+            <a href="#beranda" class="mobile-nav-link block py-2 px-3 rounded-lg bg-green-50 text-green-700 font-semibold">Beranda</a>
+            <a href="#tentang" class="mobile-nav-link block py-2 px-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Tentang</a>
+            <a href="#proker" class="mobile-nav-link block py-2 px-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Program Kerja</a>
+            <a href="#anggota" class="mobile-nav-link block py-2 px-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Anggota</a>
+            <a href="#logo" class="mobile-nav-link block py-2 px-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Filosofi Logo</a>
+            <a href="#kontak" class="mobile-nav-link block py-2 px-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="beranda" class="relative bg-green-950 text-white min-h-[85vh] flex items-center justify-center overflow-hidden py-12 px-4 sm:px-6">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1593113565694-c70034a7eb06?auto=format&fit=crop&w=800&q=80" alt="Kegiatan KKN Mobile" class="block md:hidden w-full h-full object-cover opacity-30">
+            <img src="https://6a4602007caaf70790b5b09c.imgix.net/sandbox/baduy-antri-a.jpg" alt="Kegiatan KKN Desktop" class="hidden md:block w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-t from-green-950 via-transparent to-transparent opacity-80"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center">
+            <h2 class="text-2xl sm:text-3xl md:text-5xl font-extrabold mb-4 leading-tight drop-shadow-md">
+                KKN Nusantara VI <br class="sm:hidden">Tahun 2026
+            </h2>
+            <p class="text-sm sm:text-base md:text-lg max-w-2xl mb-4 font-light px-2 text-green-50 drop-shadow">
+                "Merawat Ekoteologi, Menjaga Tradisi: Meneguhkan Iman, Melestarikan Alam"
+            </p>
+            <p class="mb-8 text-xs sm:text-sm md:text-base font-medium text-green-200">
+                Lokasi: Desa Cisimeut, Kec. Leuwidamar, Kab. Lebak, Prov. Banten. 
+                <span class="block italic mt-1 text-white opacity-90 text-xs sm:text-sm">Periode: 15 Juli – 23 Agustus 2026</span>
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3.5 w-full sm:w-auto px-4 sm:px-0">
+                <a href="#proker" class="w-full sm:w-auto bg-white text-green-700 px-6 py-3 rounded-xl font-bold shadow-md hover:bg-green-50 transition text-center text-sm">Jelajahi Program Kerja</a>
+                <a href="#tentang" class="w-full sm:w-auto bg-green-600 text-white px-6 py-3 rounded-xl font-bold shadow-md hover:bg-green-500 transition text-center text-sm">Tentang Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-12 sm:py-16 lg:py-20 px-4 max-w-6xl mx-auto">
+        <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+            <div class="w-full lg:w-1/2">
+                <img src="https://6a4602007caaf70790b5b09c.imgix.net/sandbox/baduy-dalam-4.jpeg" alt="Edukasi KKN" class="rounded-2xl shadow-md w-full object-cover aspect-[4/3] sm:aspect-video lg:aspect-[4/3]">
+            </div>
+            <div class="w-full lg:w-1/2">
+                <h3 class="text-2xl sm:text-3xl font-extrabold mb-4 text-gray-900 tracking-tight">Pemberdayaan Masyarakat Desa Cisimeut</h3>
+                <p class="mb-5 text-sm sm:text-base text-gray-600 leading-relaxed">KKN Nusantara VI adalah program pengabdian masyarakat dari perguruan tinggi yang melibatkan mahasiswa untuk berkontribusi dalam pembangunan dan pemberdayaan masyarakat desa. Kelompok VI ARGANTARA mengusung visi pembangunan berbasis Ekoteologi, Keagamaan, dan Kearifan Lokal.</p>
+                <ul class="space-y-3.5 text-sm sm:text-base text-gray-600">
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-green-600 font-bold mt-0.5">•</span>
+                        <span><strong class="text-gray-900">Tujuan:</strong> Mengimplementasikan Tri Dharma Perguruan Tinggi melalui kegiatan pengabdian nyata.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-green-600 font-bold mt-0.5">•</span>
+                        <span><strong class="text-gray-900">Kesadaran:</strong> Menumbuhkan kesadaran masyarakat dalam memperkuat nilai spiritual, melestarikan tradisi lokal, serta menjaga alam.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-green-600 font-bold mt-0.5">•</span>
+                        <span><strong class="text-gray-900">Potensi:</strong> Mengoptimalkan potensi internal Desa Cisimeut lewat program kerja berkelanjutan.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="proker" class="py-12 sm:py-16 lg:py-20 bg-gray-100/60">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto text-center mb-10 sm:mb-14">
+                <span class="inline-block px-3 py-1 text-[10px] sm:text-xs font-bold text-green-700 bg-green-100 rounded-full mb-3 uppercase tracking-wider">
+                    Fokus Kami
+                </span>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">Fokus Pengabdian</h2>
+                <p class="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed">
+                    Bidang utama kegiatan pengabdian kelompok ARGANTARA untuk memberikan dampak positif yang nyata dan berkelanjutan.
+                </p>
+            </div>
+
+            <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+                <div class="bg-white rounded-2xl p-6 sm:p-8 text-center shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div class="w-16 h-16 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-5">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2.5">Pendidikan</h3>
+                    <p class="text-gray-500 text-xs sm:text-sm leading-relaxed">
+                        Meningkatkan kualitas pendidikan melalui program belajar bimbingan mandiri, pendampingan, serta literasi kreatif bagi generasi muda desa.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 sm:p-8 text-center shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div class="w-16 h-16 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-5">
+                        <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66l.95-2.3c.48.1 1.04.13 1.64.13 4.5 0 8.5-2.5 10.7-6.3V2c0 0-4.59 0-9 4.34C7.79 8.5 7.08 11.5 7.55 14.65c3.21-1.12 7.15-3.62 9.45-6.65z"/>
+                            <path d="M21 21c0-4.5-2.5-8.5-6.3-10.7h-11c0 0 0 4.59 4.34 9 2.16 2.21 5.16 2.92 8.31 2.45-1.12-3.21-3.62-7.15-6.65-9.45z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2.5">Lingkungan</h3>
+                    <p class="text-gray-500 text-xs sm:text-sm leading-relaxed">
+                        Menggalakkan aksi pelestarian alam berbasis ekoteologi demi merawat kebersihan lingkungan hidup yang lestari dan asri.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 sm:p-8 text-center shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div class="w-16 h-16 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-5">
+                        <svg class="w-8 h-8 text-green-700" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2.5">UMKM</h3>
+                    <p class="text-gray-500 text-xs sm:text-sm leading-relaxed">
+                        Mendukung pemetaan dan pengembangan potensi komoditas usaha lokal agar lebih bernilai jual tinggi, mandiri, dan berdaya saing.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 sm:p-8 text-center shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div class="w-16 h-16 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-5">
+                        <svg class="w-8 h-8 text-green-700" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                            <rect x="16" y="11" width="6" height="10" rx="1" ry="1"></rect>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2.5">Digitalisasi</h3>
+                    <p class="text-gray-500 text-xs sm:text-sm leading-relaxed">
+                        Memperkenalkan inovasi manajemen administrasi serta optimalisasi literasi digital yang sehat guna akselerasi info desa.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 sm:p-8 text-center shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div class="w-16 h-16 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-5">
+                        <svg class="w-8 h-8 text-green-700" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2.5">Sosial</h3>
+                    <p class="text-gray-500 text-xs sm:text-sm leading-relaxed">
+                        Membangun kolaborasi harmonis, inklusi kultural, dan integrasi antar elemen masyarakat guna mempererat tali kebersamaan.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 sm:p-8 text-center shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div class="w-16 h-16 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-5">
+                        <svg class="w-8 h-8 text-green-700" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            <path d="M12 8v8"></path>
+                            <path d="M8 12h8"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2.5">Kesehatan</h3>
+                    <p class="text-gray-500 text-xs sm:text-sm leading-relaxed">
+                        Meningkatkan mutu pemahaman pola hidup sehat sanitasi preventif serta penyuluhan gizi bagi anak-anak dan keluarga di desa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="anggota" class="py-12 sm:py-16 lg:py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-10 sm:mb-14">
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-3">Struktur Organisasi & Anggota</h3>
+            <p class="text-gray-600 text-xs sm:text-sm max-w-xl mx-auto">Mahasiswa delegasi pengabdi dari berbagai Perguruan Tinggi Keagamaan Islam di Indonesia.</p>
+        </div>
+
+        <div class="mb-12 sm:mb-16">
+            <h4 class="text-xl font-bold text-center text-green-700 mb-8 pb-2 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-12 after:h-0.5 after:bg-green-500 after:rounded-full">
+                Pengurus Inti
+            </h4>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="flex flex-col items-center p-5 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group">
+                    <div class="w-20 h-20 mb-3.5 rounded-full overflow-hidden border-4 border-green-50 group-hover:border-green-100 transition-colors">
+                        <img src="https://ui-avatars.com/api/?name=Ahmad+Haikal&background=random" alt="Ahmad Haikal" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="text-base font-bold text-gray-800 text-center">Ahmad Haikal</h5>
+                    <span class="text-xs font-semibold text-green-600 mb-2.5">Ketua</span>
+                    <span class="text-[11px] text-gray-500 text-center bg-gray-50 px-2.5 py-1 rounded-full">UIN Sultan Maulana Hasanuddin</span>
+                </div>
+
+                <div class="flex flex-col items-center p-5 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group">
+                    <div class="w-20 h-20 mb-3.5 rounded-full overflow-hidden border-4 border-green-50 group-hover:border-green-100 transition-colors">
+                        <img src="https://6a4602007caaf70790b5b09c.imgix.net/sandbox/Futuhatul%20Fazriyah_UIN%20Sultan%20Maulana%20Hasanuddin%20Banten_Sekretaris%201%20(1).png" alt="Futuhatul Fazriyah" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="text-base font-bold text-gray-800 text-center">Futuhatul Fazriyah</h5>
+                    <span class="text-xs font-semibold text-green-600 mb-2.5">Sekretaris 1</span>
+                    <span class="text-[11px] text-gray-500 text-center bg-gray-50 px-2.5 py-1 rounded-full">UIN Sultan Maulana Hasanuddin</span>
+                </div>
+
+                <div class="flex flex-col items-center p-5 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group">
+                    <div class="w-20 h-20 mb-3.5 rounded-full overflow-hidden border-4 border-green-50 group-hover:border-green-100 transition-colors">
+                        <img src="https://6a4602007caaf70790b5b09c.imgix.net/sandbox/Naily%20Yusriyah%20-%20UIN%20Walisongo%20-%20Sekretaris%202%20(1).jpg" alt="Naily Yusriyah" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="text-base font-bold text-gray-800 text-center">Naily Yusriyah</h5>
+                    <span class="text-xs font-semibold text-green-600 mb-2.5">Sekretaris 2</span>
+                    <span class="text-[11px] text-gray-500 text-center bg-gray-50 px-2.5 py-1 rounded-full">UIN Walisongo</span>
+                </div>
+
+                <div class="flex flex-col items-center p-5 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group">
+                    <div class="w-20 h-20 mb-3.5 rounded-full overflow-hidden border-4 border-green-50 group-hover:border-green-100 transition-colors">
+                        <img src="https://ui-avatars.com/api/?name=Kamallia+Putri&background=random" alt="Kamallia Putri" class="w-full h-full object-cover">
+                    </div>
+                    <h5 class="text-base font-bold text-gray-800 text-center">Kamallia Putri</h5>
+                    <span class="text-xs font-semibold text-green-600 mb-2.5">Bendahara</span>
+                    <span class="text-[11px] text-gray-500 text-center bg-gray-50 px-2.5 py-1 rounded-full">UIN Sultan Maulana Hasanuddin</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-12 sm:mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div>
+                    <h4 class="text-lg font-bold text-gray-800 mb-5 pb-1.5 border-b-2 border-gray-200">Seksi Acara</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Astri+Tresnawati&background=random" alt="Astri" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Astri Tresnawati</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN SMH Banten</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Moh+Rakis&background=random" alt="Moh Rakis" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Moh. Rakis O.</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">IAIN Kerinci</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Dian+Chanifatur&background=random" alt="Dian" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Dian Chanifatur R.</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN Sunan Kudus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold text-gray-800 mb-5 pb-1.5 border-b-2 border-gray-200">Seksi Humas</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Inggih+Ajukansah&background=random" alt="Inggih" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Inggih Ajukansah</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN Suska Riau</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Ai+Siti&background=random" alt="Ai Siti" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Ai Siti N.</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN SGD Bandung</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Dey+Kunsi&background=random" alt="Dey" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Dey Kunsi</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">IAIN Sultan Amai</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div>
+                    <h4 class="text-lg font-bold text-gray-800 mb-5 pb-1.5 border-b-2 border-gray-200">Seksi PDD</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Mohamad+Adriansah&background=random" alt="Adriansah" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Mohamad Adriansah</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN Raden Fatah</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Ayudya+Dwi&background=random" alt="Ayudya" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Ayudya Dwi R.</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN Saizu Purwokerto</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold text-gray-800 mb-5 pb-1.5 border-b-2 border-gray-200">Seksi Konsumsi</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Nadia+Sulistia&background=random" alt="Nadia" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Nadia Sulistia M.</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN Mataram</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Khofi+Luayyi&background=random" alt="Khofi" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Khofi Luayyi M.</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">UIN Ponorogo</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-14 h-14 mb-2.5 rounded-full overflow-hidden bg-gray-100"><img src="https://ui-avatars.com/api/?name=Zilia+Zulaika&background=random" alt="Zilia" class="w-full h-full object-cover"></div>
+                            <h5 class="text-xs font-bold text-gray-800 text-center">Zilia Zulaika</h5>
+                            <span class="text-[10px] text-gray-400 mt-1">IAIN SAS Babel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="logo" class="bg-gray-900 text-white py-16 lg:py-24">
+    <div class="container mx-auto px-6">
+        <div class="max-w-3xl mx-auto text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-orange-500">Filosofi Logo Argantara</h2>
+            <p class="text-gray-400 text-lg">Identitas resmi Kelompok VI KKN Nusantara Banten 2026</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            
+            <div class="space-y-4">
+                <div class="flex items-start gap-4 p-5 bg-gray-800/30 rounded-xl border border-gray-700">
+                    <svg class="w-8 h-8 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.047 8.287 8.287 0 009 9.601a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+                    </svg>
+                    <div>
+                        <h4 class="font-bold text-orange-400">Api</h4>
+                        <p class="text-xs text-gray-400">Semangat pengabdian yang menyala, dedikasi, dan inovasi yang memberikan manfaat nyata.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 p-5 bg-gray-800/30 rounded-xl border border-gray-700">
+                    <svg class="w-8 h-8 text-gray-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 10c-2-3-5-5-8-4 3 3 4 5 4 7l1.5 7h5l1.5-7c0-2 1-4 4-7-3-1-6 1-8 4z M9.5 16h5" />
+                    </svg>
+                    <div>
+                        <h4 class="font-bold text-gray-100">Kepala Banteng</h4>
+                        <p class="text-xs text-gray-400">Simbol keteguhan, kekuatan, dan penghormatan terhadap kearifan lokal Banten.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 p-5 bg-gray-800/30 rounded-xl border border-gray-700">
+                    <svg class="w-8 h-8 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2 10a4 4 0 014-4c2.2 0 4 2 4 4a4 4 0 004 4c2.2 0 4-2 4-4a4 4 0 014-4M2 16a4 4 0 014-4c2.2 0 4 2 4 4a4 4 0 004 4c2.2 0 4-2 4-4a4 4 0 014-4" />
+                    </svg>
+                    <div>
+                        <h4 class="font-bold text-blue-400">Gelombang Air</h4>
+                        <p class="text-xs text-gray-400">Harmoni, kemampuan adaptasi, dan sinergi yang terus mengalirkan manfaat.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 p-5 bg-gray-800/30 rounded-xl border border-gray-700">
+                    <svg class="w-8 h-8 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 22V2M12 7c-2-1.5-4-0.5-4 1.5s2 2.5 4 1.5M12 7c2-1.5 4-0.5 4 1.5s-2 2.5-4 1.5M12 12c-2-1.5-4-0.5-4 1.5s2 2.5 4 1.5M12 12c2-1.5 4-0.5 4 1.5s-2 2.5-4 1.5M12 17c-2-1.5-4-0.5-4 1.5s2 2.5 4 1.5M12 17c2-1.5 4-0.5 4 1.5s-2 2.5-4 1.5" />
+                    </svg>
+                    <div>
+                        <h4 class="font-bold text-green-400">Padi</h4>
+                        <p class="text-xs text-gray-400">Kesejahteraan dan filosofi kerendahan hati: "semakin berisi, semakin merunduk".</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-6">
+                <div class="bg-gray-800/50 p-6 rounded-2xl border border-gray-700">
+                    <h4 class="font-bold mb-4 border-b border-gray-700 pb-2">Palet Warna</h4>
+                    <div class="grid grid-cols-3 gap-3 text-[10px] uppercase tracking-widest text-center">
+                        <div class="py-2 bg-orange-900/30 text-orange-400 rounded">Oranye</div>
+                        <div class="py-2 bg-red-900/30 text-red-400 rounded">Merah</div>
+                        <div class="py-2 bg-blue-900/30 text-blue-400 rounded">Biru</div>
+                        <div class="py-2 bg-green-900/30 text-green-400 rounded">Hijau</div>
+                        <div class="py-2 bg-yellow-900/30 text-yellow-400 rounded">Emas</div>
+                        <div class="py-2 bg-gray-700/30 text-gray-300 rounded">Abu-abu</div>
+                    </div>
+                </div>
+
+                <div class="flex-grow p-6 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl border border-gray-700">
+                    <h4 class="font-bold mb-2">Tipografi & Tagline</h4>
+                    <p class="text-sm text-gray-400 leading-relaxed mb-4">
+                        Gaya <em>Serif modern</em> mencerminkan kedewasaan akademik, sementara tagline kami menjadi komitmen pengabdian:
+                    </p>
+                    <div class="py-3 px-4 bg-black/40 border border-orange-500/30 rounded-lg text-center font-bold text-orange-500 tracking-wider">
+                        MENGABDI • BERKARYA • BERDAYA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="kontak" class="bg-white py-12 sm:py-16 lg:py-20">
+        <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-10 lg:gap-14 max-w-6xl">
+            <div class="w-full lg:w-1/2">
+                <h3 class="text-2xl sm:text-3xl font-extrabold mb-3 text-gray-900 tracking-tight">Kontak Resmi Kelompok ARGANTARA</h3>
+                <p class="text-gray-500 text-sm mb-6 leading-relaxed">Hubungi pusat informasi kami untuk keperluan konfirmasi program, kemitraan strategis, maupun koordinasi sponsorship kegiatan.</p>
+                
+                <div class="space-y-3.5 text-sm text-gray-700 bg-gray-50 p-5 rounded-xl border border-gray-100">
+    <p class="flex flex-col sm:flex-row sm:gap-2">
+        <strong>Ketua Pelaksana:</strong> 
+        <span class="text-gray-600">Ahmad Haikal</span>
+    </p>
+    
+    <p class="flex flex-col sm:flex-row sm:gap-2">
+        <strong>Developer (WhatsApp):</strong> 
+        <a href="https://wa.me/6285382732537" target="_blank" rel="noopener noreferrer" class="text-green-700 font-medium hover:underline">
+            +62 853 827 325 37 (Mohamad Adriansah)
+        </a>
+    </p>
+    
+    <p class="flex flex-col sm:flex-row sm:gap-2">
+        <strong>Instagram:</strong> 
+        <a href="https://www.instagram.com/kkn.argantara6/" target="_blank" rel="noopener noreferrer" class="text-green-700 font-medium hover:underline">
+            @kkn.argantara6
+        </a>
+    </p>
+    
+    <p class="flex flex-col sm:flex-row sm:gap-2">
+        <strong>Alamat Posko:</strong> 
+        <span class="text-gray-600">Desa Cisimeut, Kec. Leuwidamar, Kab. Lebak, Prov. Banten (Kode Pos 42362)</span>
+    </p>
+</div>
+            </div>
+            <div class="w-full lg:w-1/2 h-[260px] sm:h-[320px]">
+                <iframe src="https://maps.google.com/maps?q=Cisimeut,Leuwidamar,Lebak,Banten&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" class="rounded-2xl shadow-sm border-0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-green-900 text-white py-8 border-t-4 border-green-600">
+        <div class="container mx-auto flex flex-col sm:flex-row items-center justify-between px-4 gap-4 text-xs sm:text-sm">
+            <div class="text-center sm:text-left">
+                <span class="font-bold block text-base tracking-wide">Kuliah Kerja Nyata Nusantara 2026</span>
+                <span class="text-green-200/80 text-xs">Penempatan Wilayah Provinsi Banten</span>
+            </div>
+            <div class="text-center sm:text-right text-green-100/70 leading-relaxed text-xs">
+                © 2026 KKN Nusantara Kelompok VI Argantara - Desa Cisimeut.<br class="hidden sm:block"> All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btnToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+        const navLinks = document.querySelectorAll('.mobile-nav-link');
+
+        function toggleMenu() {
+            const isMenuHidden = mobileMenu.classList.contains('hidden');
+            
+            if (isMenuHidden) {
+                mobileMenu.classList.remove('hidden');
+                // Ganti icon ke 'X' (close)
+                menuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+            } else {
+                mobileMenu.classList.add('hidden');
+                // Balikkan ke icon Hamburger
+                menuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>`;
+            }
+        }
+
+        btnToggle.addEventListener('click', toggleMenu);
+
+        // Otomatis tutup menu dropdown ketika salah satu link diklik di mobile
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (!mobileMenu.classList.contains('hidden')) {
+                    toggleMenu();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
